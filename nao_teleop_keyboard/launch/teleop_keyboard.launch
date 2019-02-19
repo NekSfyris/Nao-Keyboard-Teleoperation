@@ -1,0 +1,5 @@
+<!-- Teleoperation for nao using Keyboard -->
+
+<launch>
+  <node pkg="nao_teleop_keyboard" type="teleop_nao" name="teleop_nao" output="screen" />
+</launch>
