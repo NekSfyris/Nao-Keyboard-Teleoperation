@@ -10,20 +10,20 @@ You need to have installed :
 * ROS ( with a catkin environment )
 * naoqi_driver package
 
-Has been tested for ros-kinetic and opencv 3.3 .
+Has been tested for ros-kinetic and opencv 3.3.0 .
 
 ### Build
 
 After you downloaded the package, move it in your catkin workspace and :
 ```
-cd ~/catkin_ws
-catkin_make
+$ cd ~/catkin_ws
+$ catkin_make
 ```
 
 ### Run
 
 To run the package first run naoqi_driver in one terminal.
-Then : 
+Then in another terminal : 
 ```
-roslaunch nao_teleop_keyboard teleop_keyboard.launch 
+$ roslaunch nao_teleop_keyboard teleop_keyboard.launch 
 ```
