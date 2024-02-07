@@ -1,20 +1,19 @@
 # Nao-Keyboard-Teleoperation
 
 A ROS based package implementation for Nao v5 robot teleoperation using the keyboard in C++.
-You will be able to control robot's base and head movement in space.
+You will be able to control the robot's base and head movement in space.
 
 ### Prerequisites
 
 You need to have installed :
-* OpenCV
 * ROS ( with a catkin environment )
 * naoqi_driver package
 
-Has been tested for ros-kinetic and opencv 3.3.0 .
+Has been tested for ros-kinetic.
 
 ### Build
 
-After you downloaded the package, move it in your catkin workspace and :
+After you cloned the package, move it in your catkin workspace and:
 ```
 $ cd ~/catkin_ws
 $ catkin_make
